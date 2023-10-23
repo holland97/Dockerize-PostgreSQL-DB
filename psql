@@ -1,57 +1,17 @@
-CREATE TABLE gamingsystem (console_serial_number VARCHAR(50) PRIMARY KEY company_name VARCHAR(50),
-                                                                                      coompany_location VARCHAR (50),
-                                                                                                        console_name VARCHAR (50),
-                                                                                                                     release_date DATE NOT NULL,
-                                                                                                                                       units_sold INTEGER NOT NULL)
-INSERT INTO gamingsystem(company_name,
-                         company_location,
-                         console_name,
-                         release_date,
-                         units_sold)
-VALUES ('Sony',
-        'Japan',
-        'Playstation 5',
-        '11/12/2020',
-        100000000);
+CREATE TABLE gamingsystem (
+    console_serial_number VARCHAR(50) PRIMARY KEY    
+    company_name VARCHAR(50),
+    coompany_location VARCHAR (50),
+    console_name VARCHAR (50),
+    release_date DATE NOT NULL,
+    units_sold INTEGER NOT NULL    
+)
 
-
-VALUES ('Microsoft',
-        'US',
-        'Xbox 360',
-        '11/22/2005',
-        87000);
-
-
-VALUES ('Nintendo',
-        'Japan',
-        'Game Boy',
-        '04/21/1989',
-        95000);
-
-
-VALUES ('Sega',
-        'Japan',
-        'Dreamcast',
-        '11/27/1998',
-        42000);
-
-
-VALUES ('Microsoft',
-        'US',
-        'Xbox Series S',
-        '11/10/2020',
-        98000);
-
-
-VALUES ('Nintendo',
-        'Japan',
-        'N64',
-        '09/26/1996',
-        36000);
-
-
-VALUES ('Sony',
-        'Japan',
-        'PSP',
-        '03/24/2005',
-        57000);
+INSERT INTO gamingsystem(console_serial_number, company_name, company_location, console_name, release_date, units_sold)
+VALUES ('rgtVrNbaG2Zk', 'Sony', 'Japan', 'Playstation 5', '11/12/2020', 100000000);
+VALUES ('Wk4NemQH7Hwy', 'Microsoft', 'US', 'Xbox 360', '11/22/2005', 87000);
+VALUES ('hwzM8qrquRZD', 'Nintendo', 'Japan', 'Game Boy', '04/21/1989', 95000);
+VALUES ('8hhZ6ThZjN7r', 'Sega', 'Japan', 'Dreamcast', '11/27/1998', 42000);
+VALUES ('CSrQuEovqvkh', 'Microsoft', 'US', 'Xbox Series S', '11/10/2020', 98000);
+VALUES ('dqoe2hXNDXGM', 'Nintendo', 'Japan', 'N64', '09/26/1996', 36000);
+VALUES ('NZoksCXhuEAV', 'Sony', 'Japan', 'PSP', '03/24/2005', 57000);
