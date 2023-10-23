@@ -1,0 +1,28 @@
+version: '3.9'
+services:
+  postgres:
+    image: postgres:16.0
+    container_name: psqldb
+    restart: always
+    environment:
+      POSTGRES_USER: Tobi
+      POSTGRES_PASSWORD: password0123!
+      POSTGRES_DB: postgres
+    ports:
+      - 5432:5432
+    
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: root123!
+    ports:
+      - 5050:80
+  
+
+    
+
+  
+  

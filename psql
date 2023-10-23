@@ -1,0 +1,57 @@
+CREATE TABLE gamingsystem (console_serial_number VARCHAR(50) PRIMARY KEY company_name VARCHAR(50),
+                                                                                      coompany_location VARCHAR (50),
+                                                                                                        console_name VARCHAR (50),
+                                                                                                                     release_date DATE NOT NULL,
+                                                                                                                                       units_sold INTEGER NOT NULL)
+INSERT INTO gamingsystem(company_name,
+                         company_location,
+                         console_name,
+                         release_date,
+                         units_sold)
+VALUES ('Sony',
+        'Japan',
+        'Playstation 5',
+        '11/12/2020',
+        100000000);
+
+
+VALUES ('Microsoft',
+        'US',
+        'Xbox 360',
+        '11/22/2005',
+        87000);
+
+
+VALUES ('Nintendo',
+        'Japan',
+        'Game Boy',
+        '04/21/1989',
+        95000);
+
+
+VALUES ('Sega',
+        'Japan',
+        'Dreamcast',
+        '11/27/1998',
+        42000);
+
+
+VALUES ('Microsoft',
+        'US',
+        'Xbox Series S',
+        '11/10/2020',
+        98000);
+
+
+VALUES ('Nintendo',
+        'Japan',
+        'N64',
+        '09/26/1996',
+        36000);
+
+
+VALUES ('Sony',
+        'Japan',
+        'PSP',
+        '03/24/2005',
+        57000);
