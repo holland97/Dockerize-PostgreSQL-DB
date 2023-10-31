@@ -1,4 +1,4 @@
-# DockerCompose-PostgreSQL-PGAdmin
+# Dockerized-PostgreSQL-DB
 #Instructions
 1. Create docker compose file and begin adding setup to it
 
